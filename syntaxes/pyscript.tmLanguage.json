@@ -5,8 +5,8 @@
 		"html"
 	],
 	"firstLineMatch": "^{% extends [\"'][^\"']+[\"'] %}",
-	"foldingStartMarker": "(<(?i:(head|table|tr|div|style|script|pyscript|ul|ol|form|dl))\\b.*?>|{%\\s*(block|filter|for|if|macro|raw))",
-	"foldingStopMarker": "(<\/(?i:(head|table|tr|div|style|script|pyscript|ul|ol|form|dl))\\b.*?>|{%\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*%})",
+	"foldingStartMarker": "(<(?i:(head|table|tr|div|style|script|py-script|ul|ol|form|dl))\\b.*?>|{%\\s*(block|filter|for|if|macro|raw))",
+	"foldingStopMarker": "(<\/(?i:(head|table|tr|div|style|script|py-script|ul|ol|form|dl))\\b.*?>|{%\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*%})",
 	"patterns": [
 		{
 			"begin": "{#",
@@ -59,13 +59,13 @@
 			]
 		},
 		{
-			"begin": "<pyscript>",
+			"begin": "<py-script>",
 			"captures": [
 				{
 					"name": "entity.name.tag.pyscript"
 				}
 			],
-			"end": "</pyscript>",
+			"end": "</py-script>",
 			"name": "meta.tag.pyscript",
 			"patterns": [
 				{

@@ -15,8 +15,8 @@
 ## Example Snippets
 `pyscript` will add the following snippets:
 ```
-<pyscript>
-</pyscript>
+<py-script>
+</py-script>
 ```
 
 `pycdn` will add the following snippets:

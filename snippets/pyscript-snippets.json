@@ -3,9 +3,9 @@
         "prefix": "pyscript",
         "description": "Python script",
         "body": [
-            "<pyscript>",
+            "<py-script>",
             "$1",
-            "</pyscript>"
+            "</py-script>"
         ]
     },
     "pycdn": {
