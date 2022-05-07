@@ -7,7 +7,7 @@
 
 ## Features
 - Provides code Highlighting for python langage in pyscript in HTML files.
-- More than 100 snippets for PyScript, Django Templte, Python and HTML.
+- More than 200 snippets for PyScript, Django Templte, Python and HTML.
 - Snippets are scoped to the current file.
 - New Language Support for `pyscript` in VS code Language selection.
 
