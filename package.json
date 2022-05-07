@@ -2,16 +2,38 @@
     "name": "pyscript",
     "displayName": "pyscript",
     "description": "Code Highlighter for PyScript",
+    "publisher": "HardeepSingh",
+    "icon": "images/logo.png",
+    "galleryBanner": {
+        "color": "#0c4b33",
+        "theme": "dark"
+    },
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.67.0"
     },
+    "recommendations": [
+        "ms-python.python"
+    ],
+    "keywords": [
+        "python",
+        "django",
+        "web",
+        "pyscript",
+        "django templates",
+        "anaconda"
+    ],
     "categories": [
-        "Programming Languages"
+        "Programming Languages",
+        "Snippets"
     ],
     "repository": {
         "type": "git",
         "url": "https://github.com/Hardeepsingh980/pyscript.git"
+    },
+    "homepage": "https://github.com/Hardeepsingh980/pyscript.git",
+    "bugs": {
+        "url": "https://github.com/Hardeepsingh980/pyscript.git/issues"
     },
     "contributes": {
         "languages": [{
