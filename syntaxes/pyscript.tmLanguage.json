@@ -74,6 +74,21 @@
 			]
 		},
 		{
+			"begin": "<py-repl>",
+			"captures": [
+				{
+					"name": "entity.name.tag.pyscript"
+				}
+			],
+			"end": "</py-repl>",
+			"name": "meta.tag.pyscript",
+			"patterns": [
+				{
+					"include": "source.python"
+				}
+			]
+		},
+		{
 			"include": "text.html.basic"
 		}
 	],
