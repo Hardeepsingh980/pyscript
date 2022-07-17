@@ -59,7 +59,7 @@
 			]
 		},
 		{
-			"begin": "<py-script>",
+			"begin": "<py-script",
 			"captures": [
 				{
 					"name": "entity.name.tag.pyscript"
@@ -67,6 +67,21 @@
 			],
 			"end": "</py-script>",
 			"name": "meta.tag.pyscript",
+			"patterns": [
+				{
+					"include": "source.python"
+				}
+			]
+		},
+		{
+			"begin": "<py-repl",
+			"captures": [
+				{
+					"name": "entity.name.tag.pyrel"
+				}
+			],
+			"end": "</py-repl>",
+			"name": "meta.tag.pyrel",
 			"patterns": [
 				{
 					"include": "source.python"
